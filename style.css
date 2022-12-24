@@ -114,7 +114,7 @@ body{
 .line2{
     font-weight: 100;
 }
-/* About us */
+/* ------------------About us---------------- */
 #about{
     padding: 50px 0px;
     background: #f0f3f0;
@@ -169,14 +169,16 @@ body{
 }
 #food h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 400;
+    padding-top: 20px;
     margin-bottom: 40px;
     text-transform: uppercase;
     color: #555;
 }
 .food-container{
     display: flex;
+    padding-top: 100px;
     justify-content: space-between;
 }
 .food-container img{
@@ -247,7 +249,7 @@ body{
 .food-menu-container{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px opx 30px 0px;
+    padding: 50px 0px 30px 0px;
 }
 .food-menu-container img{
     display: block;
@@ -281,4 +283,50 @@ body{
     color: rgb(3, 149, 193);
     padding-bottom: 20px;
     font-weight: 700;
+}
+/* -----------------testimonial styling----------------- */
+#testimonials{
+    padding: 5rem 0rem;
+    background:#f0f3f0;
+}
+.testimonials-title{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    color: #555;
+}
+.testimonial-container{
+    display: flex;
+    /* flex:1 1 200px; */
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 1rem;
+    /* margin-bottom: 3rem;
+    object-fit: cover;
+    object-position: center; */
+}
+.testimonial-box .checked{
+    color: #e2c104;
+}
+.testimonial-box .unchecked{
+    color: #72726d;
+}
+.testimonial-box .testimonial-text{
+    margin: 1rem 0;
+    color: #444;
+}
+.testimonial-box{
+    text-align: center;
+    padding: 1rem;
+}
+.customer-img img{
+    display: block;
+    width: 100px;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
 }
