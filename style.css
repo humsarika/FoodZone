@@ -238,6 +238,9 @@ body{
 }
 
 /* -------------------Food menu styling------------------ */
+#food-menu{
+    background: #ebebe9;
+}
 .food-menu-heading{
     padding-top: 70px;
     padding-bottom: 30px;
@@ -287,7 +290,7 @@ body{
 /* -----------------testimonial styling----------------- */
 #testimonials{
     padding: 5rem 0rem;
-    background:#f0f3f0;
+    background:#ffffff;
 }
 .testimonials-title{
     padding-top: 20px;
