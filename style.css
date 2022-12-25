@@ -81,14 +81,14 @@ body{
     font-size: 3rem;
 }
 .navbar a{
-    color: #444;
+    color: rgb(41, 40, 40);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     transition: color 0.3s ease-in-out;
     
 }
 .navbar a:hover{
-    color: #574f4f
+    color: #ffffff
 }
 /* ---------------- home page styling ------------------- */
 .home-area{
@@ -471,7 +471,7 @@ body{
         margin-left: -60px;
         padding-left: 50px;
         transition: transform 0.5s ease-in-out;
-        box-shadow: 5px 0px 10px 0px rgb(97, 97, 97);
+        box-shadow: 5px 0px 10px 0px rgb(150, 148, 148);
     }
     .menu-items li{
         margin-bottom: 20px;
@@ -480,13 +480,20 @@ body{
     .navbar .menu-items{
         margin-bottom: 3rem;
         font-size: 2rem;
-        font-weight: 500;
+        /* font-weight: 500; */
     }
     .logo{
         position: absolute;
         top: 10px;
         right: 15px;
         font-size: 4rem;
+    }
+    .navbar-container input[type='checkbox']:checked ~.logo{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 3rem;
+        padding-right: 36%;
     }
     .navbar-container input[type='checkbox']:checked ~ .menu-items{
         transform: translateX(0);
