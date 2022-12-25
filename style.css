@@ -462,16 +462,20 @@ body{
     } 
     .navbar .menu-items{
         padding-top: 100px;
-        background: #fff;
+        background: #80bc08;
         height: 100vh;
         max-width: 300px;
         transform:translateX(-150%);
         display: flex;
-        flex-direction: column;
-        margin-left: -40px;
+        flex-direction:column;
+        margin-left: -60px;
         padding-left: 50px;
         transition: transform 0.5s ease-in-out;
-        box-shadow: 5px 0px 10px 0px #aaa;
+        box-shadow: 5px 0px 10px 0px rgb(97, 97, 97);
+    }
+    .menu-items li{
+        margin-bottom: 20px;
+        font-size: 22px;
     }
     .navbar .menu-items{
         margin-bottom: 3rem;
